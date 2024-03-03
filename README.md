@@ -6,10 +6,22 @@ Scada de Trydan con un esp32-2432s028r
 
 
 //Con esto se suben las imagenes con LittleFS
+
 ![Captura desde 2024-03-03 02-42-21](https://github.com/jaimelaguia/ChinchillaV2C/assets/106588791/2f88a974-572c-47f5-9a87-971ad95ecc57)
 
 //Esta es la config que uso
+
+
 ![imagen](https://github.com/jaimelaguia/ChinchillaV2C/assets/106588791/deea7632-37db-49f6-8461-169189635005)
+
+
+
+//Placa que he comprado y scada
+
+
+![imagen](https://github.com/jaimelaguia/Chinchilla-2.0/assets/106588791/a33c5dd8-9866-430f-bbed-0c13229ab3b5)![imagen](https://github.com/jaimelaguia/Chinchilla-2.0/assets/106588791/0aee3b8d-d451-4dd1-9b80-64f9d32a04f2)
+
+
 
 
 //To do para primera version:
