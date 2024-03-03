@@ -23,27 +23,6 @@ int max_intensity = 32;
 int min_intensity = 6;
 int intensity = 19;
 
-/*    std::string json = std::string("{");
-    json += std::string("\"ChargeState\":") + String(adcServerUtils->getControlPilotState()).c_str();
-    json += std::string(",\"ReadyState\":") + String(((int)(adcServerUtils->getControlPilotState() == STATE_B) && (chargeBoxPropertiesServerUtils->getProperty(MIN_CAR_INTENSITY_KW, 0,(int)0) != -1))).c_str();
-    json += std::string(",\"ChargePower\":") + String(adcServerUtils->getIntensityAdcValue() * chargeBoxPropertiesServerUtils->getProperty(INSTALLATION_VOLTAGE_KW,0,(int)0)).c_str();
-    json += std::string(",\"ChargeEnergy\":") + String(stadisticUtilsServerUtils->getCurrentStadistic().energy).c_str();
-    json += std::string(",\"SlaveError\":") + String(housePowerServerUtils->getError()).c_str();         
-    json += std::string(",\"ChargeTime\":") + String(stadisticUtilsServerUtils->getCurrentStadistic().seconds).c_str();
-    json += std::string(",\"HousePower\":") +  String(housePowerServerUtils->getHousePower()).c_str();
-    json += std::string(",\"FVPower\":") +  String(housePowerServerUtils->getFVPower()).c_str();
-    json += std::string(",\"BatteryPower\":") +  String(housePowerServerUtils->getBatteryPower()).c_str();
-    json += std::string(",\"Paused\":") +   String(chargeBoxPropertiesServerUtils->getProperty(PAUSE_KW, 0,(int)0)).c_str();
-    json += std::string(",\"Locked\":") +  String(chargeBoxPropertiesServerUtils->getProperty(LOCKED_KW, 0,(int)0)).c_str();
-    json += std::string(",\"Timer\":") +  String(programChargeServer->is_program).c_str();
-    json += std::string(",\"Intensity\":") + String(chargeBoxPropertiesServerUtils->getProperty(INTENSITY_KW, 0,(int)0)).c_str();
-    //json += std::string(",\"Dynamic\":") + String(is_dynamic).c_str();
-    json += std::string(",\"MinIntensity\":") + String(String(chargeBoxPropertiesServerUtils->getProperty(MAX_CAR_INTENSITY_KW, 0,(int)0)).c_str();
-    //json += std::string(",\"PauseDynamic\":") chargeBoxPropertiesServerUtils->getProperty(MIN_CAR_INTENSITY_KW, 0,(int)0)).c_str();
-    json += std::string(",\"MaxIntensity\":") + +  String(pause_dynamic).c_str();
-    
-*/
-
 String common_name = "";
 bool connected_trydan = false;
 

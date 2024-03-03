@@ -400,7 +400,7 @@ void menuWindowView(bool refresh)
     int hours = charge_time / 3600;
     int minutes = (charge_time - hours)/60;
 
-    time_str = String(hours) + "h " + String(minutes) + "m";
+    String time_str = String(hours) + "h " + String(minutes) + "m";
     
     charging_time_label.fillSprite(CUSTOM_DARK_1);
     charging_time_label.drawString(time_str.c_str(),70, 10);
