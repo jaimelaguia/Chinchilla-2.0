@@ -9,6 +9,8 @@ Scada de Trydan con un esp32-2432s028r
 ![Captura desde 2024-03-03 02-42-21](https://github.com/jaimelaguia/ChinchillaV2C/assets/106588791/2f88a974-572c-47f5-9a87-971ad95ecc57)
 
 //Esta es la config que uso
+
+
 ![imagen](https://github.com/jaimelaguia/ChinchillaV2C/assets/106588791/deea7632-37db-49f6-8461-169189635005)
 
 
